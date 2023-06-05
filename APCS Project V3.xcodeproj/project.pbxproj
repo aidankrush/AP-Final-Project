@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D841507229ED83C000A8F964 /* APCS_Project_V3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841507129ED83C000A8F964 /* APCS_Project_V3App.swift */; };
-		D841507429ED83C000A8F964 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841507329ED83C000A8F964 /* ContentView.swift */; };
 		D841507629ED83C200A8F964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D841507529ED83C200A8F964 /* Assets.xcassets */; };
 		D841507929ED83C200A8F964 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D841507829ED83C200A8F964 /* Preview Assets.xcassets */; };
+		D841508F29F2F4E700A8F964 /* NationalParks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841508E29F2F4E700A8F964 /* NationalParks.swift */; };
+		D841509129F5BDE400A8F964 /* ParksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841509029F5BDE400A8F964 /* ParksView.swift */; };
+		D841509329F8BB5600A8F964 /* Detail View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D841509229F8BB5600A8F964 /* Detail View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D841506E29ED83C000A8F964 /* APCS Project V3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "APCS Project V3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D841507129ED83C000A8F964 /* APCS_Project_V3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APCS_Project_V3App.swift; sourceTree = "<group>"; };
-		D841507329ED83C000A8F964 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D841507529ED83C200A8F964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D841507829ED83C200A8F964 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D841508E29F2F4E700A8F964 /* NationalParks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NationalParks.swift; sourceTree = "<group>"; };
+		D841509029F5BDE400A8F964 /* ParksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParksView.swift; sourceTree = "<group>"; };
+		D841509229F8BB5600A8F964 /* Detail View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Detail View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				D841507129ED83C000A8F964 /* APCS_Project_V3App.swift */,
-				D841507329ED83C000A8F964 /* ContentView.swift */,
-				D841507529ED83C200A8F964 /* Assets.xcassets */,
+				D841508D29F2F4CE00A8F964 /* Views */,
+				D89BEF392A02A34200E03FD2 /* Data */,
 				D841507729ED83C200A8F964 /* Preview Content */,
 			);
 			path = "APCS Project V3";
@@ -63,8 +67,26 @@
 			isa = PBXGroup;
 			children = (
 				D841507829ED83C200A8F964 /* Preview Assets.xcassets */,
+				D841507529ED83C200A8F964 /* Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D841508D29F2F4CE00A8F964 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D841509029F5BDE400A8F964 /* ParksView.swift */,
+				D841509229F8BB5600A8F964 /* Detail View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D89BEF392A02A34200E03FD2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D841508E29F2F4E700A8F964 /* NationalParks.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D841507429ED83C000A8F964 /* ContentView.swift in Sources */,
+				D841509329F8BB5600A8F964 /* Detail View.swift in Sources */,
+				D841509129F5BDE400A8F964 /* ParksView.swift in Sources */,
 				D841507229ED83C000A8F964 /* APCS_Project_V3App.swift in Sources */,
+				D841508F29F2F4E700A8F964 /* NationalParks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

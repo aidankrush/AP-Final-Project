@@ -11,7 +11,7 @@ import SwiftUI
 struct APCS_Project_V3App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ParksView()
         }
     }
 }
